@@ -1,12 +1,21 @@
-let loop1 = "";
 
+function verificarTime() {
+  
+  var continuarPerguntando = true;
 
-while (loop1 !== "emilio de menezes") {
-loop1 = prompt("Qual o melhor professor da escola?");
+  while (continuarPerguntando) {
+    
+    var respostaTime = prompt("qual o melhor professor do emilio?");
 
-  if (loop1 === "Miderson") {
-    alert("É mintira so quero nota!");
-  } else {
-    alert(NÃO,dica talvez seje o Miderson);
+    
+    if (respostaTime.toLowerCase() === "Miderson") {
+      alert("mintira so quero nota");
+      continuarPerguntando = false; // Sai do loop após a resposta correta
+    } else {
+      alert("Não é isso! dica, talvez seje o Miderson.");
+    }
   }
 }
+
+// Chamada da função para iniciar o processo
+verificarTime();
