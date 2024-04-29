@@ -9,10 +9,10 @@ function verificarTime() {
 
     
     if (respostaTime.toLowerCase() === "Miderson") {
-      alert("mintira so quero nota");
+      alert("dica, talvez seje o Miderson");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Não é isso! dica, talvez seje o Miderson.");
+      alert("fake news, so quero nota.");
     }
   }
 }
