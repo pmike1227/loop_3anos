@@ -7,6 +7,6 @@ loop1 = prompt("Qual o melhor professor da escola?");
   if (loop1 === "Miderson") {
     alert("É mintira so quero nota!");
   } else {
-    alert(NÃO é isso. Tente novamente!);
+    alert(NÃO,dica talvez seje o Miderson);
   }
 }
