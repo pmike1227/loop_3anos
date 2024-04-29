@@ -5,14 +5,14 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual foi o único piloto a conquistar a Triplice Coroa do Automobilismo ?");
+    var respostaTime = prompt("Quem é o melhor professor ?");
 
     
-    if (respostaTime.toLowerCase() === "graham hill") {
-      alert("Isso mesmo! Graham Hill foi o único piloto da historia a conquistar a Triplice Coroa");
+    if (respostaTime.toLowerCase() === "Miderson") {
+      alert("fake news, so quero nota");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Não é isso! Tente novamente.");
+      alert("Não é isso! dica, talvez seje o Miderson.");
     }
   }
 }
