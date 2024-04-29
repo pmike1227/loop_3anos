@@ -1,11 +1,11 @@
 let loop1 = "";
 
 
-while (loop1 !== "Athletico Paranaense") {
-loop1 = prompt("Qual o melhor time do mundo?");
+while (loop1 !== "emilio de menezes") {
+loop1 = prompt("Qual o melhor professor da escola?");
 
-  if (loop1 === "Athletico Paranaense") {
-    alert("É isso aí!");
+  if (loop1 === "Miderson") {
+    alert("É mintira so quero nota!");
   } else {
     alert(NÃO é isso. Tente novamente!);
   }
